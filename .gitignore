@@ -1,0 +1,93 @@
+
+# ==================================================
+# C# WINDOWS FORMS - VISUAL STUDIO
+# .NET Framework / Entity Framework / SQL Server
+# ==================================================
+
+# ---------- Archivos compilados ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny[Cc]pu/
+*.pdb
+*.cache
+*.tmp
+*.log
+
+# ---------- Visual Studio ----------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+*.opendb
+
+# ---------- Pruebas y compilaciones ----------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+
+# ---------- NuGet y dependencias ----------
+# No ignorar packages.config ni archivos .csproj.
+# En proyectos antiguos, packages.config declara
+# los paquetes NuGet necesarios.
+packages/
+*.nupkg
+*.snupkg
+
+# ---------- Entity Framework ----------
+# Archivos generados temporales
+*.edmx.diagram.bak
+*.tt.bak
+
+# No ignorar:
+# *.edmx
+# *.tt
+# *.Context.cs
+# *.Designer.cs
+# packages.config
+# Estos archivos pueden ser necesarios para el proyecto.
+
+# ---------- Configuración local y secretos ----------
+.env
+.env.*
+!.env.example
+
+appsettings.Local.json
+appsettings.Development.Local.json
+secrets.local.json
+connectionStrings.local.config
+
+# Certificados y claves privadas
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ---------- SQL Server: bases de datos locales ----------
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.bacpac
+
+# Archivos de usuario de proyectos SQL
+*.sqlproj.user
+*.jfm
+
+# ---------- Archivos temporales del sistema ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ==================================================
+# FIN
+# ==================================================
